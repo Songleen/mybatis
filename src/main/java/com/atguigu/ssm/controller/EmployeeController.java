@@ -23,7 +23,7 @@ public class EmployeeController {
     @RequestMapping(name = "/getEmps")
     public String selectEmployees(Map<String, Object> map) {
         List<Employee> employees = employeeService.selectEmployees();
-        map.put("allEmployee", employees);
+        map.put("allEmps", employees);
         return "list";
     }
 }

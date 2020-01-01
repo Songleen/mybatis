@@ -19,7 +19,7 @@
             <td>sex</td>
             <td>address</td>
         </tr>
-        <c:forEach items="${allEmployee}" var="emp">
+        <c:forEach items="${allEmps}" var="emp">
             <tr>
                 <td>${emp.id}</td>
                 <td>${emp.userName}</td>
